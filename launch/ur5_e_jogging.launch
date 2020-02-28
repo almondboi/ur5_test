@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Load ur5e in gazebo with camera -->
+	<include file="$(find ur_e_gazebo)/launch/ur5e.launch">
+	</include>
+	
+	<!-- Load arm_jogging control -->
+	<include file="$(find ur5_test)/launch/ur5e.launch">
+	</include>
+
+	<!-- Load rviz and moveit -->
+	<include file="$(find ur5_test)/launch/demo_planning_execution.launch">
+	</include>
+
+
+
+</launch>
