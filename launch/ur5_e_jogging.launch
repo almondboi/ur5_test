@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-	<!-- Load ur5e in gazebo with camera -->
+	<!-- Load ur5e in gazebo-->
 	<include file="$(find ur_e_gazebo)/launch/ur5e.launch">
 	</include>
 	
